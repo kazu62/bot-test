@@ -1,4 +1,5 @@
 import axios from "axios"
+import messageData from './gameMessages'
 
 exports.handler = async function(event,context,callback){
   const body = JSON.parse(event.body)
