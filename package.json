@@ -1,9 +1,10 @@
 {
   "dependencies": {
+    "axios": "^0.18.0",
     "netlify-lambda": "^1.1.1"
   },
-  "scripts":{
-    "build":"netlify-lambda build src/",
-    "serve":"netlify-lambda serve src/"
+  "scripts": {
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
   }
 }
