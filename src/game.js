@@ -11,7 +11,7 @@ exports.handler = async function(event,context,callback){
 
   const data = {
     replyToken:webhookBody.events[0].replayToken,
-    message:[
+    messages:[
       type:'text',
       text:'技術書店の締め切りまであと7日, だけど進捗は10% あなたはどうする？',
       quickReply:[
