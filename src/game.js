@@ -11,7 +11,7 @@ exports.handler = async function(event,context,callback){
   }
 
   const data = {
-    replyToken:webhookBody.events[0].replayToken,
+    replyToken:targetEvent.replyToken,
     messages:[
       {
       type:'text',
