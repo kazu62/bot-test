@@ -6,7 +6,7 @@ exports.handler = async function(event,context,callback){
   console.log(JSON.stringify(targetEvent, null , 4))
 
   const matchResult = targetEvent.message.text.match(/[\d+]|スタート/)
-  if(!marchResult){
+  if(!matchResult){
     callback(null,{})
   }
 
