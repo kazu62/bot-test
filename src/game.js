@@ -41,8 +41,10 @@ exports.handler = async function(event,context,callback){
               text:'[3]出店をやめる'
             }
           },
-        ]
-      ]
+
+          ]
+        }
+      }
     ]
   }
 
