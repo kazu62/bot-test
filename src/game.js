@@ -4,7 +4,7 @@ exports.handler = async function(event,context,callback){
   const webhookBody = JSON.parse(event.body)
   const targetEvent = body.events[0]
 
-  const matchResult = targetEvent.message.text.match(/スタート/)
+  const matchResult = targetEvent.message.text.match(/[\d+]|スタート/)
   if(!marchResult){
     callback(null,{})
   }
